@@ -1,0 +1,12 @@
+[rhel-BaseOS]
+name = baseos
+baseurl = http://download.eng.pnq.redhat.com/nightly/latest-RHEL-8/compose/BaseOS/x86_64/os/
+gpgcheck = 0
+enabled = 1
+
+[rhel-appstream]
+name = appstream
+baseurl = http://download.eng.pnq.redhat.com/nightly/latest-RHEL-8/compose/AppStream/x86_64/os/ 
+gpgcheck = 0
+enabled = 1
+
